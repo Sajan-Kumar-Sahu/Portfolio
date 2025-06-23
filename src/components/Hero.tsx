@@ -40,7 +40,7 @@ const Hero = () => {
                   cursorStyle="_"
                   typeSpeed={40}
                   deleteSpeed={30}
-                  delaySpeed={2000}
+                  delaySpeed={500}
                 />
               </span>
             </h1>
