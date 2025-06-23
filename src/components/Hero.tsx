@@ -1,6 +1,7 @@
 
 import { ArrowRight, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Typewriter } from "react-simple-typewriter";
 
 const Hero = () => {
   return (
@@ -22,20 +23,39 @@ const Hero = () => {
               </span>
             </div>
             
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4">
-              I'm{" "}
+            <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold mb-4">
+              Hey, I’m{' '}
               <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-blue-600 bg-clip-text text-transparent">
                 Sajan
               </span>
+              <br />
+              <span className="text-xl sm:text-2xl lg:text-3xl font-medium mt-2 inline-block text-gray-300">
+                <Typewriter
+                  words={[
+                    'a passionate problem solver.',
+                    'a backend-focused engineer.',
+                    'skilled in RESTful APIs.',
+                    'a PostgreSQL power user.',
+                    'focused on performance.',
+                    'a Java + Spring Boot enthusiast.',
+                  ]}
+                  loop={true}
+                  cursor
+                  cursorStyle="_"
+                  typeSpeed={40}
+                  deleteSpeed={30}
+                  delaySpeed={2000}
+                />
+              </span>
             </h1>
-            
+
             <h2 className="text-xl sm:text-2xl text-gray-300 mb-6 font-light">
               Backend Developer | REST API Specialist | Java Enthusiast
             </h2>
-            
+
             <p className="text-gray-400 text-lg mb-8 leading-relaxed">
-              Passionate about crafting efficient, scalable backend solutions and exploring 
-              new technologies to stay ahead in the ever-evolving tech landscape.
+              I craft efficient, scalable backend systems and stay curious about the latest technologies
+              in the ever-evolving tech landscape.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
