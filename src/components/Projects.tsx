@@ -74,6 +74,7 @@ const Projects = () => {
                   </Button>
                   <Button 
                     className="bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700"
+                    onClick={() => window.open(project.demo, '_blank')}
                   >
                     <ExternalLink className="mr-2" size={18} />
                     Live Demo
