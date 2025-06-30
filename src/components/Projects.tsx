@@ -16,7 +16,7 @@ const Projects = () => {
       "Real-time availability tracking"
     ],
     github: "https://github.com/Sajan-Kumar-Sahu/InnSpiration",
-    demo: "#"
+    demo: "https://innspiration-booking.netlify.app/"
   };
 
   return (
