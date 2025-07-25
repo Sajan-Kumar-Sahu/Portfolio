@@ -4,9 +4,9 @@ import { Coffee, Database, Code, GitBranch, Server, Terminal } from "lucide-reac
 const Skills = () => {
   const skillCategories = [
     {
-      title: "Languages & Frameworks",
+      title: "TechStack",
       icon: Coffee,
-      skills: ["Java", "Spring Boot"],
+      skills: ["Java + Spring Boot","C# + ASP.NET Core",],
       color: "text-orange-400"
     },
     {

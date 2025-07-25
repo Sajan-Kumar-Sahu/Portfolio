@@ -53,7 +53,7 @@ const About = () => {
               </div>
               <p className="text-gray-300">
                 Backend Development with focus on<br />
-                Java, Spring Boot, and REST APIs<br />
+                Java (Spring Boot), .NET (ASP.NET Core), and REST APIs<br />
                 <span className="text-purple-400">Database Design & Optimization</span>
               </p>
             </div>

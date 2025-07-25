@@ -28,19 +28,19 @@ const Hero = () => {
               <span className="text-xl sm:text-2xl lg:text-3xl font-medium mt-2 inline-block text-gray-300">
                 <Typewriter
                   words={[
-                    "a passionate problem solver.",
                     "a backend-focused engineer.",
                     "skilled in RESTful APIs.",
                     "a PostgreSQL power user.",
                     "focused on performance.",
                     "a Java + Spring Boot enthusiast.",
+                    "experienced with .NET Core & ASP.NET.",
                   ]}
                   loop={true}
                   cursor
                   cursorStyle="_"
-                  typeSpeed={40}
+                  typeSpeed={20}
                   deleteSpeed={30}
-                  delaySpeed={500}
+                  delaySpeed={1000}
                 />
               </span>
             </h1>
