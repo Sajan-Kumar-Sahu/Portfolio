@@ -46,7 +46,7 @@ const Hero = () => {
             </h1>
 
             <h2 className="text-xl sm:text-2xl text-gray-300 mb-6 font-light">
-              Backend Developer | REST API Specialist | Java Enthusiast
+              Java Developer (Spring Boot) | .NET Developer (ASP.NET Core) | Backend APIs | PostgreSQL
             </h2>
 
             <p className="text-gray-400 text-lg mb-8 leading-relaxed">
