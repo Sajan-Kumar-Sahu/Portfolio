@@ -38,9 +38,9 @@ const Hero = () => {
                   loop={true}
                   cursor
                   cursorStyle="_"
-                  typeSpeed={60}
-                  deleteSpeed={40}
-                  delaySpeed={1000}
+                  typeSpeed={50}
+                  deleteSpeed={30}
+                  delaySpeed={1500}
                 />
               </span>
             </h1>
