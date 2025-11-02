@@ -70,10 +70,10 @@ const Hero = () => {
                 />
               </Button>
 
-              <a href="/SAJAN KUMAR SAHU.pdf" download>
+              <a href="/SajanKumarSahu_DotNetDeveloper_Resume.pdf" download>
                 <Button
                   variant="outline"
-                  className="border-gray-600 text-gray-300 hover:bg-gray-800 px-8 py-6 text-lg"
+                  className="border-gray-600 text-black hover:bg-gray-300 px-8 py-6 text-lg"
                 >
                   <Download className="mr-2" size={20} />
                   Download Resume
@@ -88,7 +88,7 @@ const Hero = () => {
               <div className="w-80 h-80 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 p-1">
                 <div className="w-full h-full rounded-full bg-gray-800 flex items-center justify-center">
                   <img
-                    src="/B-8990-removebg-preview - Copy.jpg"
+                    src="/Sajan 4.0.png"
                     alt="Profile"
                     className="w-72 h-72 rounded-full object-cover"
                   />
